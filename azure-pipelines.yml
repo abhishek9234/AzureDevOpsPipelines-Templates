@@ -2,11 +2,11 @@ trigger:
 - master
 
 variables:
-  backendServiceArm: 'AZURE_5_SUBSCRIPTION'
+  backendServiceArm: 'Pay-As-You-Go'
   backendAzureRmResourceGroupName: 'resourcegroup-devops-tfstate'
   backendAzureRmStorageAccountName: 'terraform0tfstate0'
   backendAzureRmContainerName: 'tfstate'
-  location: 'westeurope'
+  location: 'centralindia'
   tfBackendEnvironment: tf_backend
   devEnvironment: dev
   testEnvironment: test
